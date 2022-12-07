@@ -1,0 +1,26 @@
+﻿html{
+    background-color:black;
+}
+body {
+    height: 100%;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #FF007F;
+    font-family: 'Baskerville Old Face';
+}
+h1,h2{
+    text-align:center;
+}
+div{
+  background-color:white;
+}
+p{
+    margin-left:2em;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
