@@ -1,15 +1,21 @@
 ﻿html{
-    background-color:black;
+    background-color:lightpink;
 }
 body {
-    height: 100%;
+    height: 120%;
+    margin:0;
     width: 80%;
     margin-right: 10%;
     margin-left: 10%;
-    background-color: #FF007F;
+    background-color: hotpink;
     font-family: 'Baskerville Old Face';
 }
+.top{
+   margin-left:2em;
+   font-size:20px;
+}
 h1,h2{
+    padding-top:10px;
     text-align:center;
 }
 div{
@@ -17,10 +23,61 @@ div{
 }
 p{
     margin-left:2em;
+    margin-right:2em;
+    display:block;
+    margin-left:40%;
+    padding-bottom:2em;
 }
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+
+.langa_p{
+    display:inline-block;
+    margin-left:20%;
+    font-size:40px;
+    margin-top:6%;
+    padding-bottom:5%;
+    
+}
+div{
+    width:30%;
+    float:left;
+    height:50%;
+    background-color:hotpink;
+}
+.img1 {
+    width: 100%;
+    height:45%;
+    margin-bottom:42%;
+    margin-left:2em;
+}
+input[type="email"]{
+    margin-top:5px;
+    width:70%;
+    background-color:pink;
+}
+input[type="submit"]{
+    background-color:pink;
+    border-color:white;
+}
+form{
+    width:35%;
+    border:0;
+}
+.pt_poza {
+    padding-top: 50%;
+    padding-left: 2em;
+    font-size: 18px;
+}
+fieldset {
+    padding-top: 50%;
+    border: 0;
+}
+label{
+    padding-top:50%;
+    font-size:18px;
+}
+.poza {
+    width: 100%;
+    height: 45%;
+    margin-bottom: 0px;
+    margin-left: 2em;
 }
