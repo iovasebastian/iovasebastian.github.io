@@ -183,3 +183,34 @@ label{
         font-size: 15px;
     }
 }
+@media (max-width: 500px) and (min-width: 1px) {
+
+    .langa_p {
+        display: inline-block;
+        margin-left: 20%;
+        font-size: 20px;
+        margin-top: 1.5em;
+        padding-bottom: 1.25em;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+    .pt_poza {
+        padding-top: 50%;
+        padding-left: 2em;
+        font-size: 13px;
+    }
+    .mail{
+        font-size:13px;
+    }
+}
+
