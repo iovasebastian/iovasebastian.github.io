@@ -111,6 +111,12 @@ label{
     margin-left:2.5em;
     margin-bottom:0.5em;
 }
+footer{
+    text-align:right;
+}
+.footer{
+    font-size:18px;
+}
 @media(orientation:portrait){
     body {
         min-height: 97vh;
@@ -121,7 +127,9 @@ label{
     }
 }
 @media (max-width: 1400px) and (min-width: 1000px) {
-
+    .footer{
+        font-size:18px;
+    }
     .langa_p {
         display: inline-block;
         margin-left: 20%;
@@ -140,7 +148,9 @@ label{
     }
 }
 @media (max-width: 1200px) and (min-width: 500px) {
-
+    .footer {
+        font-size: 15px;
+    }
     .langa_p {
         display: inline-block;
         margin-left: 20%;
@@ -162,7 +172,9 @@ label{
     }
 }
 @media (max-width: 500px) and (min-width: 1px) {
-
+    .footer {
+        font-size: 15px;
+    }
     .langa_p {
         display: inline-block;
         margin-left: 20%;
@@ -184,7 +196,9 @@ label{
     }
 }
 @media (max-width: 500px) and (min-width: 1px) {
-
+    .footer {
+        font-size: 15px;
+    }
     .langa_p {
         display: inline-block;
         margin-left: 20%;
