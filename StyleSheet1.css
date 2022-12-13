@@ -1,9 +1,18 @@
-﻿html{
+html{
     background-color:lightpink;
 }
+.langa_p {
+    display: inline-block;
+    margin-left: 20%;
+    font-size: 40px;
+    margin-top: 1.5em;
+    padding-bottom: 1.25em;
+}
+
+
 body {
-    height: 120%;
-    margin:0;
+    min-height: 97vh;
+    margin: 0;
     width: 60%;
     margin-right: 20%;
     margin-left: 20%;
@@ -14,9 +23,16 @@ body {
    margin-left:2em;
    font-size:20px;
 }
-h1,h2{
-    padding-top:10px;
+
+
+h1{
+    padding-top:0.5em;
     text-align:center;
+    font-size: 1rem + 1.5vw;
+}
+h2 {
+    padding-top: 0.5em;
+    text-align: center;
 }
 div{
   background-color:white;
@@ -27,17 +43,16 @@ p{
     display:block;
     margin-left:40%;
     padding-bottom:2em;
-    font-size:30px;
+    font-size: 25px;
 }
 
-.langa_p{
-    display:inline-block;
-    margin-left:20%;
-    font-size:40px;
-    margin-top:6%;
-    padding-bottom:5%;
-    
-}
+/*.langa_p {
+    display: inline-block;
+    margin-left: 20%;
+    font-size: 40px;
+    margin-top: 1.5em;
+    padding-bottom: 1.25em;
+}*/
 div{
     width:30%;
     float:left;
@@ -57,7 +72,7 @@ div{
     margin-left: 2em;
 }
 input[type="email"]{
-    margin-top:5px;
+    margin-top:0.25em;
     width:70%;
     background-color:pink;
 }
@@ -84,10 +99,87 @@ label{
 }
 .unu{
     margin-left:2em;
-    padding-bottom:5em;
+    height:1em;
+    width:3em;
 }
 .doi{
     margin-top:30%;
     margin-left:2em;
     display:block;
+}
+.buton{
+    margin-left:2.5em;
+    margin-bottom:0.5em;
+}
+@media(orientation:portrait){
+    body {
+        min-height: 97vh;
+        margin: 0;
+        width: 100%;
+        background-color: hotpink;
+        font-family: 'Baskerville Old Face';
+    }
+}
+@media (max-width: 1400px) and (min-width: 1000px) {
+
+    .langa_p {
+        display: inline-block;
+        margin-left: 20%;
+        font-size: 20px;
+        margin-top: 1.5em;
+        padding-bottom: 1.25em;
+    }
+    h1{
+        font-size:25px;
+    }
+    h2{
+        font-size:20px;
+    }
+    p{
+        font-size:18px;
+    }
+}
+@media (max-width: 1200px) and (min-width: 500px) {
+
+    .langa_p {
+        display: inline-block;
+        margin-left: 20%;
+        font-size: 20px;
+        margin-top: 1.5em;
+        padding-bottom: 1.25em;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+@media (max-width: 500px) and (min-width: 1px) {
+
+    .langa_p {
+        display: inline-block;
+        margin-left: 20%;
+        font-size: 20px;
+        margin-top: 1.5em;
+        padding-bottom: 1.25em;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 15px;
+    }
 }
